@@ -5,6 +5,12 @@ import seaborn as sns
 import warnings
 warnings.filterwarnings("ignore", category=UserWarning)
 
+import matplotlib.pyplot as plt
+
+# Set the font to Segoe UI Emoji (Windows)
+plt.rcParams['font.family'] = ['Segoe UI Emoji', 'DejaVu Sans']
+
+
 st.sidebar.title("WhatsApp Chat Analyzer")
 
 uploaded_file = st.sidebar.file_uploader("Choose a file")
