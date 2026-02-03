@@ -1,4 +1,4 @@
-Markdown
+
 # WhatsApp Chat Analyzer
 
 A comprehensive data visualization tool built with **Streamlit** to analyze WhatsApp chat exports. Gain insights into messaging patterns, most active users, emoji usage, and more.
@@ -18,26 +18,27 @@ A comprehensive data visualization tool built with **Streamlit** to analyze What
 ---
 
 ##  Installation & Setup
-
 **1. Clone the repository:**
 ```bash
 git clone https://github.com/Prarthana-05/whatsapp_chat_analyser.git
 cd whatsapp_chat_analyser
+``` 
 
-2. Install dependencies:
+**2. Install dependencies:**
+```bash
 pip install streamlit pandas matplotlib seaborn wordcloud urlextract emoji
-
-3. Run the app:
+```
+**3. Run the app:**
+```bash
 streamlit run app.py
+``` 
 
 ## Project Structure
-app.py: The main Streamlit entry point.
 
-preprocessor.py: Logic for cleaning and parsing raw text data.
-
-helper.py: Functions for statistical analysis and plot generation.
-
-stop_hinglish.txt: Common filler words to ignore in analysis.
+* **app.py**: The main Streamlit entry point.
+* **preprocessor.py**: Logic for cleaning and parsing raw text data.
+* **helper.py**: Functions for statistical analysis and plot generation.
+* **stop_hinglish.txt**: Common filler words to ignore in analysis.
 
 ---
 
